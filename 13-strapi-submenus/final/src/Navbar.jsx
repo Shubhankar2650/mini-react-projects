@@ -7,6 +7,7 @@ const Navbar = () => {
     // console.log(e.target);
     if (!e.target.classList.contains('nav-link')) {
       setPageId(null);
+
     }
   };
   return (
