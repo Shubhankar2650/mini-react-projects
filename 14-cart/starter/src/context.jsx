@@ -5,6 +5,8 @@ import { reducer } from "./reducer";
 import { getTotal } from "./utils";
 
 const AppContext = createContext();
+const url = 'https://www.course-api.com/react-useReducer-cart-project';
+
 
 const initialState = {
     cart: new Map(cartItems.map((items) => [items.id, items])),
